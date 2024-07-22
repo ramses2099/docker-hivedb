@@ -10,7 +10,6 @@ services:
       - "10002:10002"
     volumes:
       - ./hive4_data:/opt/hive/host_data/data_db
-    restart: always
 
 volumes:
   hive4_data:
